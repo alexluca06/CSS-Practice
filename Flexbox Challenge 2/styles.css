@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+header h1 {
+    
+    text-align: center;
+    font-size: 3rem;
+    margin: 30px;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+
+li {
+    list-style: none;
+}
+li a {
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url("Images/alex-au-yang-LyLfOtmXKO0-unsplash.jpg");
+    background-size: cover;
+    background-position: center top;
+    padding: 20px 0;
+}
+.mission .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: azure;
+    row-gap: 10px;
+}
+
+.mission .container h2 {
+    font-size: 3rem;
+}
+
+.mission .container h3 {
+    font-size: 2rem;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.products h2 {
+    font-size: 3rem;
+}
+
+.products h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.products .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 5% 0;
+    
+}
+.products .container img {
+    width: 400px;
+    height: auto;
+}
+
+.products .container .image {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.team {
+    height: 600px;
+    background-image: url("Images/lucia-garo-1DYlwnTNj38-unsplash.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team h2 {
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+.team .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .container .image {
+    max-width: 350px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.team .container .image h2 {
+    font-size: 2.5rem;
+}
+
+.team .container .image h3 {
+    font-size: 1.8rem;
+}
+.team .container .image img {
+    max-width: 250px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+footer h2 {
+    font-size: 3rem;
+}
+
+footer h3 {
+    font-size: 2rem;
+}
